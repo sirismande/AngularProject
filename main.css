@@ -1,0 +1,98 @@
+body, .nav-items{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    background-color: #8fdda9;
+    color: #30495d;
+    padding: 0 15px;
+    display: flex;
+    height: 12%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    display: none !important;
+}
+
+.container{
+    max-width: unset !important;
+    width: unset !important;
+}
+
+.header span{
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.container-body{
+    background-color: whitesmoke;
+    color: #f0543e;
+    height: 80%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    transition: all 3s ease-out;
+}
+
+h3.card-title{
+    color: #f0543e;
+}
+
+.container-card{
+    padding: 5px 15px 0 15px;
+}
+
+.container-card h3{
+    font-weight: 400;
+}
+
+.questn-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}
+
+.questn-list li{
+    font-size: 14px;
+    line-height: 2.3;
+}
+
+.nav-items li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 20px;
+    text-align: center;
+    transition: all 0.25s ease-out;
+}
+
+.nav-items li>a{
+    text-decoration: none;
+    color: #30495d;
+    text-shadow: unset !important;
+}
+
+.nav-items li:hover{
+    color: bisque;
+    transform: rotate(-10deg);
+}
+
+.container-body a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #30495d;
+    text-shadow: unset !important;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 8%;
+}
+
+.footer span{
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+    color: #30495d;
+}
